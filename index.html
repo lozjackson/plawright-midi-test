@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test MIDI</title>
+  </head>
+  <body>
+    <h1>Test MIDI</h1>
+
+    <button data-test-send-cc id="send-midi-cc-button" type="button">
+      Send MIDI CC
+    </button>
+    <button data-test-send-sysex id="send-midi-sysex-button" type="button">
+      Send MIDI Sysex
+    </button>
+
+    <div id="midi-info">
+      <div id="midi-enabled">MIDI is not enabled</div>
+      <ul id="midi-message-log"></ul>
+    </div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

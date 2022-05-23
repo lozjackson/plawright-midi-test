@@ -1,0 +1,16 @@
+{
+  "name": "midi-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@playwright/test": "^1.22.2",
+    "http-server": "^14.1.0",
+    "midi": "^2.0.0"
+  },
+  "scripts": {
+    "start": "npx http-server",
+    "test": "npx playwright test"
+  }
+}
