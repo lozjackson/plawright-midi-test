@@ -25,7 +25,7 @@ With `permissions: ['midi', 'midi-sysex']`
 With no permissions set
 
 On requesting MIDI access the MIDI permission prompt is displayed, if you click "Allow", then everything
-works and Chrome doesn't crash
+works as expected and Chrome doesn't crash
 
 - Sending CC messages works. You can see a log of sucessfully sent messages in the page
 - Sending Sysex messages works. You can see a log of sucessfully sent messages in the page
